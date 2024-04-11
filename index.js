@@ -18,20 +18,20 @@ function Perfil(props) {
 
 function Bio() {
   const minibio = <div className="minibio">
-    Alline Oliveira, especialista em inovação,
-    há 25 anos vem transformando comportamentos de usuários de tencologia em aplicativos
+    Ana Oliveira, programadora,
+    há 20 anos vem realizando o estudo em  tencologia para aplicativos
     de fácil utilizacão e linguagem acessível.<br /><br />
-    Tem na diversidade a sua maior bandeira e por isso que durante toda sua jornada
-    sempre fez questão de compartilhar seus aprendizados fazendo com que outras
-    programadoras e programadores também pudessem contribuir com suas descobertas.
+    Durante toda sua jornada sempre fez questão de compartilhar seus 
+    aprendizados fazendo com que outras pessoas também pudessem contribuir 
+    com suas descobertas.
   </div>;
   return minibio;
 }
 
-function LinkLinKedin() {
+function LinkFacebook() {
   return (
-    <div className="linkedin">
-      <a href='https://linkedin.com/in/anacarolinasouzaoliveira' target='_blank'>Linkedin</a>
+    <div className="Facebook">
+      <a href='https://www.facebook.com/KarolynaSOliveira' target='_blank'>Linkedin</a>
     </div>);
 }
 
